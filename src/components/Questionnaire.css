@@ -1,0 +1,59 @@
+.questionnaire-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .questionnaire-title{
+        font-weight: bold;
+    }
+    
+    .questionnaire-question {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    }
+    
+    .questionnaire-radio-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    }
+    
+    .questionnaire-radio-label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    }
+    
+    .questionnaire-radio {
+    margin-right: 0.5rem;
+    }
+    
+    .questionnaire-submit-container {
+    margin-top: 2rem;
+    }
+    
+    .questionnaire-submit-button {
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    
+    }
+    
+    .questionnaire-score-container {
+    margin-top: 2rem;
+    text-align: center;
+    }
+    
+    .questionnaire-score-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    }
+    
+    .questionnaire-score-discount {
+    font-size: 1.2rem;
+    }

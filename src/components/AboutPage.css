@@ -1,0 +1,90 @@
+/* .about-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-image: url('F:\project-bb1\src\img\heroBg.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; 
+    url('F:\project-bb1\src\img\heroBg.png')
+  } */
+  
+  .about-page{
+    background-image: url('F:\project-bb1\src\img\heroBg.png');
+    border-radius: 9%;
+  }
+
+  .about-page background-image{
+    opacity: 200;
+  }
+  .about-us {
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+  }
+  
+  .about-us h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+
+  }
+  
+  h2{
+    color: white;
+  }
+  .developers-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 20px;
+  }
+  
+  .developer-card {
+    flex: 0 0 auto;
+    border-radius: 25px;
+    width: 200px;
+    background-color: rgb(240, 240, 240);
+    padding: 20px;
+    /* border-radius: 4px; */
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .developer-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .developer-card h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .developer-card a {
+    color: #0077b5;
+    text-decoration: none;
+  }
+  
+  .developer-card a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .developers-section {
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      overflow-x: hidden;
+    }
+  
+    .developer-card {
+      flex: 0 0 300px;
+    }
+  }
+  
